@@ -1,6 +1,4 @@
 palabra = input("Introduce una palabra\n")
 
-for letra in palabra:
-
-    print(palabra[::-1])
-    break
+for letra in range(len(palabra)-1, -1, -1):
+    print(palabra[letra])
